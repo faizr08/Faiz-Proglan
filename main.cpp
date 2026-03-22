@@ -1,10 +1,12 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 int main(int argc, char ** argv) {
-    cout << "Hello world!" << endl;
-    cout << "Hello dunia" << endl;
+    string name;
+    cout << "Enter your name: " << endl;
+    getline(cin, name);
+    cout << "Halo, " << name << "!" << endl;
 
     return 0;
 }

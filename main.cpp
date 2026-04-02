@@ -4,7 +4,7 @@ using namespace std;
 
 int main(int argc, char ** argv) {
     string name;
-    cout << "Enter your name please: " << endl;
+    cout << "Enter your name: " << endl;
     getline(cin, name);
     cout << "Halo, " << name << "!" << endl;
 
